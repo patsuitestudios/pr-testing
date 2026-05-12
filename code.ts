@@ -7,7 +7,7 @@ interface Greeting {
 function getTimePeriod(hour: number): string {
     if (hour >= 5 && hour < 12) return "mooooorning";
     if (hour >= 12 && hour < 17) return "afternooooooon";
-    if (hour >= 17 && hour < 21) return "evening";
+    if (hour >= 17 && hour < 21) return "eeeeeevening";
     return "night";
 }
 
@@ -23,10 +23,10 @@ function getGreeting(period: string): Greeting {
             emoji: "🌤️",
             period: "afternooooooon",
         },
-        evening: {
-            message: "Good evening! Time to wind down",
+        eeeeeevening: {
+            message: "Good eeeeeevening! Time to wind down",
             emoji: "🌅",
-            period: "evening",
+            period: "eeeeeevening",
         },
         night: {
             message: "Hello night owl! Burning the midnight oil",
