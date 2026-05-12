@@ -70,13 +70,13 @@ function main() {
   const a = randomMatrix(3, 3);
   const b = randomMatrix(3, 3);
 
-  console.log("Matrix A:");
+  console.log("This is Matrix A:");
   console.log(formatMatrix(a));
   console.log(`\n  det(A) = ${determinant(a)}`);
   console.log(`  tr(A)  = ${trace(a)}`);
   console.log(`  symmetric? ${isSymmetric(a)}\n`);
 
-  console.log("Matrix B:");
+  console.log("This is Matrix B:");
   console.log(formatMatrix(b));
 
   console.log("\nA × B:");
